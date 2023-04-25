@@ -44,7 +44,7 @@
      - Repeat for right side
   - Histogram transformation
   - Color Saturation
-
+ - save as TIFF
 Adjusting stars from here on
 Affinity
 
