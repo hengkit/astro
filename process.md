@@ -3,7 +3,8 @@ Create new folder for image
 -	darks
 - Put the right frames in the right folder
 Siril
-  Preferences 
+  Preferences
+  
     Uncheck from file header
     Set Bayer pattern to GBRG
 Set home folder to the new folder
