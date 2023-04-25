@@ -45,8 +45,10 @@
   - Histogram transformation
   - Color Saturation
  - save as TIFF
-Adjusting stars from here on
-Affinity
+ 
+Adjusting stars from here on:
+
+3. Affinity
 
 Select>Select Sampled Colour
 
