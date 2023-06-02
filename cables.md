@@ -4,9 +4,9 @@ Canon Mini-B > Astroberry A
 
 Mount Controller USB B > Astroberry A
 
-Canon Dummy Battery > Battery A
+Canon Dummy Battery > Bluetti USB A
 
-Astroberry Micro-B > Battery A
+Astroberry Micro-B > Bluetti USB A
 
-Mount 12V 5525 C+ > ???
+Mount 12V 5525 C+ > Bluetti Car Adaptor
 
