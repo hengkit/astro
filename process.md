@@ -6,8 +6,7 @@
 
 2. Siril
 - Check Preferences
-  - Uncheck from file header
-  - Set Bayer pattern to GBRG
+  - Set Bayer pattern to GBRG (Dwarf only, Canon is RGGB but set in FITS header)
  - Set home folder to the new folder
 
 - Scripts
@@ -22,29 +21,33 @@
   - Click on stack icon in bottom right
   - Remove bad frames
  - Stacking	
-   - Select Weighed FWHM
+   - Select Average Stacking with Rejection
    - Start Stacking
 - Save r_pp_light_stacked.fit in main folder
 - Select & Crop
 - Image Processing
-  - Background Extraction
-  - Select many background points
-  - Run
+  - Use Graxpert AI
+    - Smoothing 0 first
+  - Save as FITS
  - Color Calibration
    - Photometric Color Calibration
    - Search for the thing
-   - Focal Length: 50
-   - Pixel Size: 1.45
+   - Check Focal Length and Pixel Size
 - Remove Green Noise
 - Set display to linear mode 
 - Image Processing
+   - Todo: Starnet?
    - Generalized Hyperbolic stretch transformation
      - Find left inflection point on histogram
      - Drag everything around until it looks better
      - Apply 
      - Repeat for right side
-  - Histogram transformation
-  - Color Saturation
- - save as TIFF
+     - Repeat for anything interesting
+     - save as 16 bit TIFF
+  - Affinity Photo
+    - S curve in histogram
+    - Color balance
+    - Contrast & Saturation
+    - 
 
 
