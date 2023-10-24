@@ -38,16 +38,22 @@
 - Image Processing
    - Todo: Starnet?
    - Generalized Hyperbolic stretch transformation
-     - Find left inflection point on histogram
-     - Drag everything around until it looks better
-     - Apply 
-     - Repeat for right side
-     - Repeat for anything interesting
+     - Initial Stretch
+       - Set to log histogran
+       - Set local stretch intensity (b) to 15(max)
+       - Set SP to somewhere in the peak but to the left of the actual max
+       - Play with stretch factor (D) and stop before channel peaks bifurcate
+          - adjust SP and D until you can see background
+       - Repeat if necessary
+       - Adjust black point
+     - General Stretching
+       - set to log histogram
+       - Use GHS or inverse GHS to get a smooth line down histogram from top left to bottom right with some space left and right
      - save as 16 bit TIFF
   - Affinity Photo
     - S curve in histogram
     - Color balance
     - Contrast & Saturation
-    - 
+    - White Balance
 
 
