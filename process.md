@@ -27,9 +27,9 @@
 - Select & Crop
 - Image Processing
    - Color Calibration
-   - Photometric Color Calibration
-   - Search for the thing
-   - Check Focal Length and Pixel Size
+     - Photometric Color Calibration
+     - Search for the thing
+     - Check Focal Length and Pixel Size
   - Use Graxpert AI
     - Smoothing 0 first
   - Save as FITS
