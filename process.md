@@ -26,13 +26,14 @@
 - Save r_pp_light_stacked.fit in main folder
 - Select & Crop
 - Image Processing
-  - Use Graxpert AI
-    - Smoothing 0 first
-  - Save as FITS
- - Color Calibration
+   - Color Calibration
    - Photometric Color Calibration
    - Search for the thing
    - Check Focal Length and Pixel Size
+  - Use Graxpert AI
+    - Smoothing 0 first
+  - Save as FITS
+
 - Remove Green Noise
 - Set display to linear mode 
 - Image Processing
