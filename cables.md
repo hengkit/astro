@@ -1,26 +1,28 @@
 # MiniPC
 
 ## Power
-Canon Dummy Battery > Bluetti USB A
+Ares Cooler 5521 > Bluetti 5521
+
+Dew Heater > MiniPC USB-A
 
 Travel Router USB-C > Bluetti USB A
 
 MiniPC USB-C > Bluetti USB-C
 
-Mount 12V 5525 C+ > Bluetti Car Adaptor
+Mount 12V 5521 > Bluetti 5521
 
 Available:
 
-2x Bluetti 5521
+2 x Bluetti USB A
 
 ## Data
 
-Canon Mini-B > MiniPC A
+Ares USB C > MiniPC USB C
 
 Mount Controller B > MiniPC A
 
-ZWO 120mm USB-C > MiniPC A
+ZWO 120mm USB-C > MiniPC A (USB 2 ONLY)
 
 Available:
 
-MiniPC USB-C
+NOTHING
