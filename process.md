@@ -25,7 +25,7 @@
 9. Deconvolution
    - generate PSF (blind descent)
    - Richardson-Lucy method
-10. Noise Reduction
+10. Noise Reduction (Maybe just use GraXpert now)
     - uncheck salt and pepper
     - data adaptive dual domain denoising - brighter images
     - anscombe VST - dimmer images
@@ -33,6 +33,9 @@
     - switch to linear view
     - without starnet - dimmer images
     - Initial Stretch
+      - General Hyperbolic Stretch Transformation
+      - Zoom out until you can actually see a bell curve
+      - Click a point within the bell curve but as close to the line as possible
       - Set to log histogran
       - Set local stretch intensity (b) to 15(max)
       - Set SP to somewhere within the peak but to the left of the actual max
