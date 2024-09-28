@@ -17,21 +17,18 @@
 6. Crop 
    - Select autostretch and the chain to link channels
    - crop the image to get rid of the perimeter bands
-7. Background Extraction
-   - Siril (RBF) - brighter images
-   - GraxPert AI - dimmer images
-     - TODO
+7. Graxpert AI
+   - Background Extraction
+   - Noise Reduction
 8. Photometric Color Calibration
 9. Deconvolution
-   - generate PSF (blind descent)
-   - Richardson-Lucy method
-10. Noise Reduction (Maybe just use GraXpert now)
-    - uncheck salt and pepper
-    - data adaptive dual domain denoising - brighter images
-    - anscombe VST - dimmer images
-11. Stretching
+   - generate PSF (blind deconvolution)
+   - Apply Richardson-Lucy method
+10. Starnet Star Removal
+    - Check pre-stretch & Generate Star Mask
+12. Stretching
+    - open starless*.fit
     - switch to linear view
-    - without starnet - dimmer images
     - Initial Stretch
       - General Hyperbolic Stretch Transformation
       - Zoom out until you can actually see a bell curve
@@ -46,17 +43,18 @@
     - General Stretching
       - set to log histogram
       - Use GHS or inverse GHS to get a smooth line down histogram from top left to bottom right with some space left and right
-
-    - with starnet
-TODO
-
-12. Remove Green Noise
-13. Adjust Color Saturation
-14. Save as 16 bit TIFF
-15. Affinity Photo
+13. Starnet Recomposition
+   - add starless and starmask fits
+   - Stretch starmask
+14. Remove Green Noise
+15. Histogram Transformation
+16. Cohtrast-Limited Adaptive Histogram Equalization
+17. Adjust Color Saturation
+18. Save as 16 bit TIFF
+19. Affinity Photo
     - S curve in histogram
     - Color balance
     - Contrast & Brightness
     - Saturation
     - White Balance
-16. Export as JPEG
+20. Export as JPEG
